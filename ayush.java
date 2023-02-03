@@ -5,7 +5,8 @@ public static void main(String[]args) {
 	int ar[]={85,20,40,37,75,98,34,32,74,};
 	int max[]=ar[0];
 	int min[]=ar[0];
-	for( int i=0;i<3;i++)
+	int n=5;
+	for( int i=0;i<n;i++)
 	{
 		//finding maximum value
 		if(max<ar[i])
